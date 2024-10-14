@@ -35,13 +35,14 @@ Make sure to install all necessary libraries using:
 # Training:
 The training is performed within the notebook. You can configure the number of iterations (max_iters), learning rate (learning_rate), and other hyperparameters as per your requirements.
 The notebook also includes functions to evaluate loss on both training and validation datasets during the training process.
-Text Generation: Once the model is trained, you can generate new sequences by providing a starting token. The notebook includes a generate function that allows you to specify the number of tokens to generate.
+# Text Generation: 
+Once the model is trained, you can generate new sequences by providing a starting token. The notebook includes a generate function that allows you to specify the number of tokens to generate.
 
 # Dataset
 The dataset used in this project is the Tiny Shakespeare dataset, which contains text written in Shakespeare's style. 
-**You can download the dataset by running the following command in the notebook**:
-   ```bash
-   !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+  **You can download the dataset by running the following command in the notebook**:
+    ```bash
+    !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 
-License
+# License:
 This project is licensed under the MIT License - see the LICENSE file for details.
