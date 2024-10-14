@@ -18,17 +18,6 @@ Data loading and preprocessing.
 Model architecture (Transformer-based GPT-like model).
 Training loop with evaluation on training and validation sets.
 Text generation using the trained model.
-# Dependencies
-To install the required dependencies for this project, run:
-
-bash
-Copy code
-pip install -r requirements.txt
-Major Libraries Used:
-torch: For building and training the model.
-numpy: For numerical computations.
-tqdm: For progress bars during training.
-The requirements.txt file contains all the packages used in this project along with their versions.
 
 # How to Use the Notebook
 1. **Clone the Repository**:
@@ -36,16 +25,15 @@ The requirements.txt file contains all the packages used in this project along w
    ```bash
    git clone https://github.com/your-username/gpt-language-model.git
    cd gpt-language-model
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook: Start Jupyter Notebook and open language_model.ipynb to train the model or generate text.
-
-bash
-Copy code
-jupyter notebook language_model.ipynb
-Training:
-
+2. **Install Dependencies**:
+Make sure to install all necessary libraries using:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Jupyter Notebook: Start Jupyter Notebook and open language_model.ipynb to train the model or generate text**.
+    ```bash
+    jupyter notebook GPT_Dev.ipynb
+    
+# Training:
 The training is performed within the notebook. You can configure the number of iterations (max_iters), learning rate (learning_rate), and other hyperparameters as per your requirements.
 The notebook also includes functions to evaluate loss on both training and validation datasets during the training process.
 Text Generation: Once the model is trained, you can generate new sequences by providing a starting token. The notebook includes a generate function that allows you to specify the number of tokens to generate.
@@ -53,8 +41,8 @@ Text Generation: Once the model is trained, you can generate new sequences by pr
 # Dataset
 The dataset used in this project is the Tiny Shakespeare dataset, which contains text written in Shakespeare's style. You can download the dataset by running the following command in the notebook:
 
-bash
-Copy code
-!curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+   ```bash
+   !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
