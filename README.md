@@ -38,8 +38,13 @@ The notebook also includes functions to evaluate loss on both training and valid
 # Text Generation: 
 Once the model is trained, you can generate new sequences by providing a starting token. The notebook includes a generate function that allows you to specify the number of tokens to generate.
 
-# Dataset
-The dataset used in this project is the Tiny Shakespeare dataset, which contains text written in Shakespeare's style. 
-  **You can download the dataset by running the following command in the notebook**:
- ```bash
- !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+## Dataset
+The dataset used in this project is the Tiny Shakespeare dataset, which contains text written in Shakespeare's style.
+
+- **You can download the dataset by running the following command in the notebook**:
+
+   ```bash
+   !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+   
+# license
+this project is licensed under the MIT License. See the LICENSE file for details.
