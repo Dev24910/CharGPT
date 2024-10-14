@@ -42,7 +42,7 @@ Once the model is trained, you can generate new sequences by providing a startin
 The dataset used in this project is the Tiny Shakespeare dataset, which contains text written in Shakespeare's style. 
   **You can download the dataset by running the following command in the notebook**:
     ```bash
-    !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+   !curl -o input.txt https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 
 # License:
 This project is licensed under the MIT License - see the LICENSE file for details.
