@@ -31,14 +31,11 @@ tqdm: For progress bars during training.
 The requirements.txt file contains all the packages used in this project along with their versions.
 
 # How to Use the Notebook
-Clone the Repository:
+1. **Clone the Repository**:
 
-bash
-Copy code
-git clone https://github.com/your-username/gpt-language-model.git
-cd gpt-language-model
-Install Dependencies: Make sure to install all necessary libraries using:
-
+   ```bash
+   git clone https://github.com/your-username/gpt-language-model.git
+   cd gpt-language-model
 bash
 Copy code
 pip install -r requirements.txt
